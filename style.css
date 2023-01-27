@@ -79,6 +79,7 @@ main > * {
 @media screen and (max-width: 768px) {
   header {
     display: block;
+    margin: 12px;
   }
   nav {
     display: flex;
