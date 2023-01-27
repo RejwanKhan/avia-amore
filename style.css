@@ -77,20 +77,25 @@ main > * {
 /* YOUR CODE HERE */
 
 @media screen and (max-width: 768px) {
+  body {
+    margin: auto;
+  }
   header {
     display: block;
     margin: 12px;
   }
   nav {
     display: flex;
+    width: 600px;
   }
   nav > a {
-    width: 4rem;
+    width: 5.5rem;
   }
 
   article {
     display: flex;
     flex-direction: column;
+    padding: 10px;
   }
 
   .airplane-card {
